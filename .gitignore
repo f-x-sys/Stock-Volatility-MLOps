@@ -221,3 +221,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project Specific
+# Licensed financial data
+data/
+*.parquet
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Local model artifacts
+mlruns/
+mlartifacts/
+*.pkl
+*.joblib
